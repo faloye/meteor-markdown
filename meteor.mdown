@@ -1,15 +1,15 @@
 ![meteor logo](https://cloud.githubusercontent.com/assets/15331966/13201426/fa4f14bc-d83e-11e5-905d-71eb3aa2f714.png)
 
-#WHAT IS IT?
+#SO WHAT IS IT?
 ##Meteor is a Javascript platform/framework.
 ###Like all frameworks, Meteor is specially configured with certain attributes that make it ideal for use under certain conditions. 
-###Meteor’s special attribute is the reactiveness/live update functionality it has built in.
-###What this means is that meteor is useful for apps requiring live, dynamic data updates, in which data additions or changes show on the page in real time.
+###Meteor’s special attribute is its built-in reactiveness/live update functionality.
+###What this means is that meteor is useful for apps requiring live, dynamic data updates, in which data changes show on the page in real time.
 ##Some other features:
 * Uses JavaScript for frontend, back-end, and database implementation
 * Has own templating system to display data on the page
-* Uses javascript-based Node.js (which is javascript based) to create server and networking tool and handle server-side functionality.
-* Uses MongoDB as database software, which plugs data into json-like collections instead of a relational db. The persistent data
+* Uses javascript-based Node.js to create server and networking tool and handle server-side functionality.
+* Uses MongoDB as database software, which plugs data into json-like collections instead of a relational databases. The persistent data
     * can be accessed from both the server and the client, making it easy to write view logic without having to write a lot of server code.
     * update themselves automatically, so a view component backed by a collection will automatically display the most up-to-date data
 
@@ -22,7 +22,7 @@
 
     `meteor create app_name`
 
-    * This will create a directory called app_name, will starter files to be built out. E.g.,
+    * This will create a directory called app_name, with starter files to be built out. E.g.,
         * _appname_.js
             * JavaScript file loaded on both client and server
             * Javascript files contain data models/db, functions, data calls and other manipulators, and event handlers
@@ -36,8 +36,8 @@
             `<body>`
 
             * Contains page contents. Displays data by referencing templates, as well as functions and event handlers defined elsewhere.
-                * Templates are referenced using {{> templatename}}
-                * Functions are referenced using {{funcitonname}}
+                * Templates are referenced using {{> _templatename_}}
+                * Functions are referenced using {{_funcitonname_}}
                 * Event handlers are not referenced but obeyed
 
             `<template>`
@@ -46,6 +46,7 @@
                 * How to display a kind of data, like what kind tags to enclose them in.
                 * When to display data using {{#if…}}{{/if}} and/or {{#unless…}}{{/unless}} conditionals
                 * How to loop through data using {{#ieach…}}{{/each}} loops
+
         * _appname_.css       
             * A CSS file to define your app's styles
         * .meteor                 
@@ -60,29 +61,29 @@
 
     `cd into app_name`
 
-    * Fonts:
+        * Fonts:
 
-    `meteor add udondan:googlefonts`
+        `meteor add udondan:googlefonts`
 
-    * SCSS:
+        * SCSS:
 
-    `meteor add fourseven:scss`
+        `meteor add fourseven:scss`
 
-    * Format dates:
+        * Format dates:
 
-    `meteor add mrt:moment`
+        `meteor add mrt:moment`
 
-    * User and user id functionality:
+        * User and user id functionality:
 
-    `meteor add accounts-password`
+        `meteor add accounts-password`
 
-    * Use of a template with a built-in login and registration for:
+        * Use of a template with a built-in login and registration for:
 
-    `mmeteor add accounts-ui`
+        `mmeteor add accounts-ui`
 
-    * Twitter login option. Requires that you create and app at apps.twitter.com:
+        * Twitter login option. Requires that you create and app at apps.twitter.com:
 
-    `meteor add accounts-twitter`
+        `meteor add accounts-twitter`
 
 ##How chit-chat works
 _In the client folder:_
