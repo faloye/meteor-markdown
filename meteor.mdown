@@ -26,7 +26,7 @@
         * _appname_.js
             * JavaScript file loaded on both client and server
             * Javascript files contain data models/db, functions, data calls and other manipulators, and event handlers
-            
+
         * _appname_.html
             * html files are comprised of 3 top level tags: 
 
@@ -82,9 +82,9 @@
 
 * Use of a template with a built-in login and registration for:
 
-    `mmeteor add accounts-ui`
+    `meteor add accounts-ui`
 
-* Twitter login option. Requires that you create and app at apps.twitter.com:
+* Twitter login option. Requires that you create an app at apps.twitter.com:
 
     `meteor add accounts-twitter`
 
