@@ -1,4 +1,4 @@
-![meteor logo](https://cloud.githubusercontent.com/assets/15331966/13200943/e3ef3044-d82a-11e5-8a5e-34038bee257e.png)
+![meteor logo](https://cloud.githubusercontent.com/assets/15331966/13201386/ee2c4d32-d83c-11e5-9df5-ba8fb0c585e3.png)
 
 #WHAT IS IT?
 ##Meteor is a Javascript platform/framework.
@@ -24,37 +24,48 @@
 
     * This will create a directory called app_name, will starter files to be built out. E.g.,
         * _appname_.js
-        * JavaScript file loaded on both client and server
+            * JavaScript file loaded on both client and server
             * Javascript files contain data models/db, functions, data calls and other manipulators, and event handlers
         * _appname_.html
-            * html files are comprised of 3 top level tags: <head>, <body>, and <template>
-            * <head> includes normal head elements title for the document, scripts, styles, meta information
-            * <body> contains page contents. Displays data by referencing templates, as well as functions and event handlers defined elsewhere.
+            * html files are comprised of 3 top level tags: 
+
+            `<head>`
+
+            * Includes normal head elements title for the document, scripts, styles, meta information
+
+            `<body>`
+
+            * Contains page contents. Displays data by referencing templates, as well as functions and event handlers defined elsewhere.
                 * Templates are referenced using {{> templatename}}
                 * Functions are referenced using {{funcitonname}}
                 * Event handlers are not referenced but obeyed
-            * <template> contains instructions for handling, parsing data. E.g,
+
+            `<template>`
+
+            * Contains instructions for handling, parsing data. E.g,
                 * How to display a kind of data, like what kind tags to enclose them in.
                 * When to display data using {{#if…}}{{/if}} and/or {{#unless…}}{{/unless}} conditionals
                 * How to loop through data using {{#ieach…}}{{/each}} loops
-        * _appname_.css       # a CSS file to define your app's styles
-        * .meteor                 # internal Meteor files
+        * _appname_.css       
+            * A CSS file to define your app's styles
+        * .meteor                 
+            * Internal Meteor files
         * Folders
-                * /client – for code running on client
-                * /server – for code running on server, like data authorization, external services?
-                * /public – for resources used by/on the client, like images, fonts
-                * /private – for resources that should be unavailable to the client, like configuration, etc.
+            * /client – for code running on client
+            * /server – for code running on server, like data authorization, external services?
+            * /public – for resources used by/on the client, like images, fonts
+            * /private – for resources that should be unavailable to the client, like configuration, etc.
 
 3. For added functionality, can add packages provided by meteor. E.g,
 
     `cd into app_name`
 
     `meteor add udondan:googlefonts  ⇒ fonts
-    meteor add fourseven:scss ⇒ scss
-    meteor add mrt:moment ⇒ format dates
-    meteor add accounts-password ⇒ for user and user id functionality
-    meteor add accounts-ui ⇒ to directly use a template with a proper login and registration form
-    meteor add accounts-twitter ⇒ for twitter login option. Requires that you create and app at apps.twitter.com`
+     meteor add fourseven:scss ⇒ scss
+     meteor add mrt:moment ⇒ format dates
+     meteor add accounts-password ⇒ for user and user id functionality
+     meteor add accounts-ui ⇒ to directly use a template with a proper login and registration form
+     meteor add accounts-twitter ⇒ for twitter login option. Requires that you create and app at apps.twitter.com`
 
 ##How chit-chat works
 _In the client folder:_
