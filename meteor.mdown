@@ -37,7 +37,7 @@
 
             * Contains page contents. Displays data by referencing templates, as well as functions and event handlers defined elsewhere.
                 * Templates are referenced using {{> _templatename_}}
-                * Functions are referenced using {{_funcitonname_}}
+                * Functions are referenced using {{_functionname_}}
                 * Event handlers are not referenced but obeyed
 
             `<template>`
@@ -61,29 +61,29 @@
 
     `cd into app_name`
 
-        * Fonts:
+* Fonts:
 
-        `meteor add udondan:googlefonts`
+    `meteor add udondan:googlefonts`
 
-        * SCSS:
+* SCSS:
 
-        `meteor add fourseven:scss`
+    `meteor add fourseven:scss`
 
-        * Format dates:
+* Format dates:
 
-        `meteor add mrt:moment`
+    `meteor add mrt:moment`
 
-        * User and user id functionality:
+* User and user id functionality:
 
-        `meteor add accounts-password`
+    `meteor add accounts-password`
 
-        * Use of a template with a built-in login and registration for:
+* Use of a template with a built-in login and registration for:
 
-        `mmeteor add accounts-ui`
+    `mmeteor add accounts-ui`
 
-        * Twitter login option. Requires that you create and app at apps.twitter.com:
+* Twitter login option. Requires that you create and app at apps.twitter.com:
 
-        `meteor add accounts-twitter`
+    `meteor add accounts-twitter`
 
 ##How chit-chat works
 _In the client folder:_
