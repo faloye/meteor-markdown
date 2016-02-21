@@ -26,6 +26,7 @@
         * _appname_.js
             * JavaScript file loaded on both client and server
             * Javascript files contain data models/db, functions, data calls and other manipulators, and event handlers
+            
         * _appname_.html
             * html files are comprised of 3 top level tags: 
 
@@ -49,8 +50,10 @@
 
         * _appname_.css       
             * A CSS file to define your app's styles
+
         * .meteor                 
             * Internal Meteor files
+
         * Folders
             * /client – for code running on client
             * /server – for code running on server, like data authorization, external services?
