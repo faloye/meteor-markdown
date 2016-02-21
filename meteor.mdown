@@ -1,6 +1,6 @@
 ![meteor logo](https://cloud.githubusercontent.com/assets/15331966/13200943/e3ef3044-d82a-11e5-8a5e-34038bee257e.png)
 
-#WHAT IT IS
+#WHAT IS IT?
 ##Meteor is a Javascript platform/framework.
 ###Like all frameworks, Meteor is specially configured with certain attributes that make it ideal for use under certain conditions. 
 ###Meteor’s special attribute is the reactiveness/live update functionality it has built in.
@@ -12,6 +12,7 @@
 * Uses MongoDB as database software, which plugs data into json-like collections instead of a relational db. The persistent data
     * can be accessed from both the server and the client, making it easy to write view logic without having to write a lot of server code.
     * update themselves automatically, so a view component backed by a collection will automatically display the most up-to-date data
+
 ##Creating a meteor app
 1. In terminal, install meteor
 
