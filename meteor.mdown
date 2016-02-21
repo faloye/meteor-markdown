@@ -1,4 +1,4 @@
-![meteor logo](https://cloud.githubusercontent.com/assets/15331966/13201400/7eb5f9a2-d83d-11e5-8ac2-098ec0b7823a.png)
+![meteor logo](https://cloud.githubusercontent.com/assets/15331966/13201426/fa4f14bc-d83e-11e5-905d-71eb3aa2f714.png)
 
 #WHAT IS IT?
 ##Meteor is a Javascript platform/framework.
@@ -31,21 +31,21 @@
 
             `<head>`
 
-                * Includes normal head elements title for the document, scripts, styles, meta information
+            * Includes normal head elements title for the document, scripts, styles, meta information
 
             `<body>`
 
-                * Contains page contents. Displays data by referencing templates, as well as functions and event handlers defined elsewhere.
-                    * Templates are referenced using {{> templatename}}
-                    * Functions are referenced using {{funcitonname}}
-                    * Event handlers are not referenced but obeyed
+            * Contains page contents. Displays data by referencing templates, as well as functions and event handlers defined elsewhere.
+                * Templates are referenced using {{> templatename}}
+                * Functions are referenced using {{funcitonname}}
+                * Event handlers are not referenced but obeyed
 
             `<template>`
 
-                * Contains instructions for handling, parsing data. E.g,
-                    * How to display a kind of data, like what kind tags to enclose them in.
-                    * When to display data using {{#if…}}{{/if}} and/or {{#unless…}}{{/unless}} conditionals
-                    * How to loop through data using {{#ieach…}}{{/each}} loops
+            * Contains instructions for handling, parsing data. E.g,
+                * How to display a kind of data, like what kind tags to enclose them in.
+                * When to display data using {{#if…}}{{/if}} and/or {{#unless…}}{{/unless}} conditionals
+                * How to loop through data using {{#ieach…}}{{/each}} loops
         * _appname_.css       
             * A CSS file to define your app's styles
         * .meteor                 
@@ -60,27 +60,27 @@
 
     `cd into app_name`
 
-    * fonts
+    * Fonts:
 
     `meteor add udondan:googlefonts`
 
-    * scss
+    * SCSS:
 
     `meteor add fourseven:scss`
 
-    * format dates
+    * Format dates:
 
     `meteor add mrt:moment`
 
-    * user and user id functionality
+    * User and user id functionality:
 
     `meteor add accounts-password`
 
-    * use of a template with a built-in login and registration for
+    * Use of a template with a built-in login and registration for:
 
     `mmeteor add accounts-ui`
 
-    * twitter login option. Requires that you create and app at apps.twitter.com
+    * Twitter login option. Requires that you create and app at apps.twitter.com:
 
     `meteor add accounts-twitter`
 
